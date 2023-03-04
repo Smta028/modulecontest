@@ -67,7 +67,7 @@ h2 {
 }
 
 .mainWrapper {
-    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("/images/pizzamain.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("images/pizzamain.png");
     background-repeat: no-repeat;
     background-size: cover;
 
