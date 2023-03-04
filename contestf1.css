@@ -1,0 +1,679 @@
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+
+/* font-family: 'Ruda', sans-serif; */
+/* font-family: 'Quattrocento', serif; */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    font-family: 'Ruda', sans-serif;
+
+}
+
+.sectionWidth {
+    max-width: 1320px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 111px;
+    align-items: center;
+    padding: 0 15px;
+}
+.mobileBtn{
+    display: none;
+}
+
+.middle ul {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 20px;
+    font-weight: 400;
+
+
+
+}
+
+.middle li {
+    list-style: none;
+
+}
+
+li a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.right {
+    display: flex;
+    gap: 20px;
+
+}
+
+h2 {
+    align-items: center;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.mainWrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)),url("/images/pizzamain.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+
+.content {
+    width: 50%;
+    padding-top: 140px;
+    padding-bottom: 180px;
+}
+
+.content h1 {
+    font-family: 'Quattrocento';
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 108px;
+    color: #FFFFFF;
+    padding-bottom: 78px;
+}
+
+hr {
+    height: 13px;
+    background: #F24C4C;
+    width: 96%;
+    border: 0;
+
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    color: #FFFFFF;
+    padding-top: 67px;
+}
+
+.wrapAbout {
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+    align-items: center;
+}
+
+.About h1 {
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.About hr {
+    height: 10px;
+    background: #B62828;
+    border: 0;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 69px;
+
+}
+
+.paraWrap {
+    flex-basis: 50%;
+}
+
+.imageWrap {
+    flex-basis: 50%;
+}
+
+.imageWrap img {
+    max-width: 100%;
+}
+
+.paraWrap p {
+    font-weight: 400;
+    font-Size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+}
+
+.mainMenu h1 {
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.mainMenu hr {
+    height: 10px;
+    background: #B62828;
+    border: 0;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 69px;
+}
+
+.mainMenu hr+p {
+    font-weight: 400;
+    font-Size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    margin-bottom: 100px;
+}
+
+.mainCard {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-bottom: 0;
+
+}
+
+.card {
+    display: flex;
+    gap: 18px;
+}
+
+.card .imge {
+    flex-basis: 40%;
+}
+
+.card .para {
+    flex-basis: 60%;
+}
+
+.card h2 {
+    font-weight: 400;
+    font-size: 28px;
+    color: #F2C94C;
+}
+
+.card img {
+    max-width: 100%;
+}
+
+.para p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px
+}
+
+.para {
+    margin-top: 15px;
+}
+
+.findUs h2 {
+    font-family: 'Quattrocento', serif;
+    font-weight: 400;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.findUs hr {
+    height: 10px;
+    background: #B62828;
+    border: 0;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: 69px;
+}
+
+.findContainer {
+    display: flex;
+    gap: 50px;
+}
+
+.leftFind p {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+    margin-bottom: 50px;
+
+}
+
+.leftFind span {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 0.09em;
+
+
+}
+
+.loc {
+    display: flex;
+    gap: 30px;
+}
+
+.loc span {
+    margin-top: 10px;
+}
+
+.leftFind {
+    flex-basis: 50%;
+}
+
+.rightFind {
+    width: 100%;
+    flex-basis: 50%;
+}
+
+.rightFind iframe {
+    width: 100%;
+    height: 400px;
+}
+
+
+
+.partition {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.email span {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.09em;
+}
+
+.email {
+    display: flex;
+    gap: 30px;
+}
+
+.partition {
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+@media (max-width:1400px) {
+    .sectionWidth {
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+
+    .middle ul {
+        font-size: 20px;
+        gap: 10px;
+        font-weight: 300;
+    }
+
+    .right {
+        gap: 10px;
+    }
+
+    h2 {
+        align-items: center;
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+    .content {
+        width: 70%;
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+
+    .content h1 {
+        font-size: 75px;
+        line-height: 85px;
+
+    }
+
+    hr {
+        height: 10px;
+        width: 90%;
+        border: 0;
+
+    }
+
+    .content p {
+
+        font-size: 24px;
+        line-height: 35px;
+    }
+
+    .About h1 {
+        font-size: 50px;
+        padding-top: 90px;
+
+    }
+
+    .paraWrap p {
+        font-Size: 22px;
+        line-height: 35px;
+        letter-spacing: 0.09em;
+    }
+
+    .mainMenu h1 {
+        font-size: 50px;
+        padding-top: 90px;
+
+    }
+
+    .mainMenu hr+p {
+        font-Size: 22px;
+        line-height: 35px;
+        margin-bottom: 90px;
+    }
+
+    .findUs h2 {
+        font-size: 50px;
+        padding-top: 90px;
+    }
+
+    .leftFind p {
+        font-size: 22px;
+        line-height: 35px;
+        margin-bottom: 40px;
+
+    }
+
+    .leftFind span {
+        font-size: 17px;
+        line-height: 35px;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .sectionWidth {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+
+
+    .middle ul {
+        display: flex;
+        align-items: center;
+        font-size: 17px;
+        gap: 8px;
+        font-weight: 200;
+    }
+
+    .right {
+        gap: 8px;
+    }
+
+    h2 {
+        align-items: center;
+        font-size: 20px;
+        font-weight: 300;
+    }
+
+    .content {
+        width: 80%;
+        padding-top: 90px;
+        padding-bottom: 120px;
+    }
+
+    .content h1 {
+        font-size: 80px;
+        line-height: 90px;
+        padding-bottom: 70px;
+    }
+
+    hr {
+        height: 8px;
+        width: 80%;
+        border: 0;
+
+    }
+
+    .content p {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .About h1 {
+        font-size: 30px;
+        padding-top: 80px;
+
+    }
+
+    .para p {
+
+        font-Size: 17px;
+        line-height: 16px;
+        letter-spacing: 0.09em;
+    }
+
+    .card h2 {
+        font-weight: 300;
+        font-size: 24px;
+    }
+
+    .mainMenu h1 {
+        font-size: 40px;
+        padding-top: 80px;
+
+    }
+
+    .mainMenu hr+p {
+        font-Size: 20px;
+        line-height: 30px;
+        margin-bottom: 80px;
+        text-align: center;
+    }
+
+    .card .para {
+        margin-top: 5px;
+    }
+
+    .mainCard {
+        gap: 20px;
+    }
+
+    .findUs h2 {
+        font-size: 40px;
+        padding-top: 80px;
+    }
+
+    .leftFind p {
+        font-size: 21px;
+        line-height: 37px;
+    }
+
+}
+
+.leftFind span {
+    font-size: 21px;
+    line-height: 37px;
+}
+
+.leftFind {
+    flex-basis: 60%;
+
+}
+
+.rightFind {
+    flex-basis: 40%;
+}
+
+.rightFind iframe {
+    width: 100%;
+    height: 300px;
+}
+
+
+
+
+@media (max-width:992px) {
+    .navbar{
+        height: 70px;
+    }
+    .mobileBtn{
+        display: block;
+    }
+    .middle {
+        display: none;
+    }
+    .right{
+        display: none;
+    }
+    .sectionWidth {
+        max-width: 700px;
+        margin: 0 auto;
+    }
+
+
+    .content h1 {
+        padding-bottom: 50px;
+        font-size: 75px;
+        line-height: 85px;
+    }
+
+    .content p {
+        padding-top: 40px;
+        font-size: 20px;
+        line-height: 35px;
+        padding-bottom: 0px;
+    }
+
+    .About h1 {
+        font-size: 45px;
+    }
+
+    .About hr {
+        height: 8px;
+
+    }
+
+    .paraWrap p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+
+    .mainMenu hr {
+        height: 8px;
+
+    }
+
+    .mainMenu hr+p {
+        font-size: 18px;
+        line-height: 33px;
+        margin-bottom: 60px;
+        text-align: center;
+    }
+
+    .card h2 {
+        font-size: 20px;
+        margin-top: 0;
+    }
+
+    .para p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+
+    .card img {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .findUs h2 {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+
+    .findUs hr {
+        height: 5px;
+        width: 29%;
+        margin-bottom: 54px;
+    }
+
+    .leftFind p {
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    .leftFind span {
+        font-size: 15px;
+        line-height: 27px;
+    }
+
+}
+
+
+@media (max-width:767px) {
+
+    .sectionWidth{
+        width: 100%;
+        padding: 0 15px;
+    }
+  
+    .content{
+        width: 100%;
+        padding-top: 40px;
+        padding-bottom: 60px;
+    }
+    .mainCard{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .wrapAbout{
+        flex-direction: column;
+    }
+    .content h1{
+        font-size: 45px;
+    line-height: 56px;
+    padding-bottom: 25px;
+}
+.content p{
+    padding-top: 20px;
+    font-size: 18px;
+    line-height: 30px;
+}
+    .paraWrap p{
+        font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+}
+.mainMenu hr+p {
+     font-size: 18px;
+    line-height: 33px;
+    margin-bottom: 60px;
+    }
+    .leftFind p{
+    font-size: 16px;
+    line-height: 30px;
+    }
+    .card .para {
+        font-size: 14px;
+        line-height: 21px;
+     
+    }
+    
+
+
+    .findContainer{
+        flex-direction: column;
+    }
+    .partition{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
